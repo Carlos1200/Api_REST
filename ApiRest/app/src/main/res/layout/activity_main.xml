@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="50dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="API REST"
+                    android:textColor="#2707EA"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/loginButtonHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:backgroundTint="@color/teal_700"
+                android:layout_marginHorizontal="40dp"
+                android:paddingVertical="15dp"
+                android:textColor="@color/white"
+                android:text="@string/LoginButton"
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/signupHomeButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SignUpButton"
+                android:layout_gravity="center"
+                android:layout_marginTop="60dp"
+                android:layout_marginHorizontal="40dp"
+                android:paddingVertical="15dp"
+                android:backgroundTint="@android:color/transparent"
+                app:strokeColor="@color/teal_700"
+                app:strokeWidth="2dp"
+                android:textColor="@color/teal_700"
+                android:textSize="15sp"
+                android:stateListAnimator="@null"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

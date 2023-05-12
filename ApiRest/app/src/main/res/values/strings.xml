@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ApiRest</string>
+    <string name="LoginButton">Iniciar sesión</string>
+    <string name="SignUpButton">Registrarse</string>
+    <string name="loginTitle">Iniciar sesión</string>
+    <string name="welcomeSignup">Registrarse</string>
+    <string name="accountLabel">Ingrese a su cuenta</string>
+    <string name="accountInput">Correo electrónico</string>
+    <string name="passwordInput">Contraseña</string>
+    <string name="signupEmail">Correo electrónico</string>
+    <string name="signupPassword">Contraseña</string>
+    <string name="signupConfirmPassword">Confirmar contraseña</string>
+
+</resources>
